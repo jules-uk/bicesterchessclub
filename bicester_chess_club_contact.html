@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Bicester Chess Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0288d1;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0277bd;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #01579b;
+        }
+
+        .container {
+            padding: 20px;
+            padding-bottom: 80px;
+            /* Add bottom padding to ensure the map is not hidden by the footer */
+        }
+
+        footer {
+            background-color: #0288d1;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            background-color: #0288d1;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #0277bd;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Bicester Chess Club</h1>
+    </header>
+    <nav>
+        <a href="bicester_chess_club_home.html">Home</a>
+        <a href="bicester_chess_club_about.html">About Us</a>
+        <a href="bicester_chess_club_events.html">Events</a>
+    </nav>
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <!-- <h3>Contact Information</h3>
+        <ul> -->
+            <!-- <li><strong>Email:</strong> <a href="mailto:info@bicesterchessclub.com">info@bicesterchessclub.com</a></li> -->
+        </ul>
+        <h3>Contact Form</h3>
+        <form action="mailto:dexter.kennedy2011@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required style="font-family: Arial, sans-serif;"></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+            <!-- <li><strong>Phone:</strong> <a href="tel:+441234567890">+44 1234 567890</a></li> -->
+            <!-- <li><strong>Address:</strong> <a
+                    href="https://www.google.com/maps?q=Wesley+Lane,+Franklins+House,+Bicester+OX26+6JU"
+                    target="_blank">Wesley Lane, Franklins House, Bicester OX26 6JU, UK</a></li> -->
+            <!--
+            <li>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d-0.127758684681882!3d51.50735077963592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3333333333%3A0x1234567890abcdef!2s123%20Chess%20Lane%2C%20Bicester%2C%20OX26%206XX%2C%20UK!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </li>
+            -->
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2025 Bicester Chess Club. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
